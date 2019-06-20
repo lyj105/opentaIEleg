@@ -1,0 +1,30 @@
+
+<view class="container">
+  <block wx:for="{{list}}" >
+  <view class="feed-item" data-row-id="{{item.title}}" data-row-name="{{ item.content }}" bindtap="onItemClick">
+    <view class="feed-content">
+      <view class="question">
+        <a class="question-link" bindtap="bindQueTap">
+          <text>{{item.title}}</text>
+        </a>
+      </view>
+      <view bindtap="bindItemTap" class="answer-body">
+        <view>
+          <text class="answer-txt">{{item.content}} </text>
+        </view>
+        <view class="answer-actions">
+          <view class="like dot">
+            <a>{{item.createtime}}</a>
+          </view>
+          
+        </view>
+      </view>
+    </view>
+  </view>
+ </block>
+</view>
+
+
+
+
+

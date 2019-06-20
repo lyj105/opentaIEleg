@@ -1,0 +1,31 @@
+<scroll-view scroll-y="true" style="height:100%;" bindscrolltolower="searchScrollLower">
+    <view class="bigImg" style="background: url(http://5b0988e595225.cdn.sohucs.com/images/20171210/a08b4adf3b9044cbb439751e4a09cc2b.jpeg)">
+        <view class="userAva">
+            <text class="userName">{{userInfo.nickName}}</text>
+            <image src="{{userInfo.avatarUrl}}"></image>
+        </view>
+    </view>
+    <view class="moments_content">
+        <view class="wa-row borderBot marginBot" wx:for="{{jokes}}" wx:for-item="item">
+            <view class="wa-col-20">
+                <image class="otherAva" src="{{item.profileImage}}"></image>
+            </view>
+            <view class="wa-col" style="padding:0">
+                <view class="otherName">{{item.name}}</view>
+                <text wx:if="{{item.text}}">{{item.relateContent}}</text>
+                <view class="weui-grids" style="overflow:hidden;width:100%;margin:10px 0" wx:if="{{item.img}}">
+                    <view class="weui-grid" wx:for="{{item.img}}" wx:for-item="i" style="background:url('{{i.imgUrl}}') no-repeat;background-size:cover;float:left;width:30%;height:190rpx"></view>
+                </view>
+                <view wx:if="{{item.address}}" class="padding_half">
+                    {{item.address}}
+                </view>
+                <view class="nickTime">
+                    <view class="padding_half">{{item.create_time}}</view>
+                    <view class="ion-ios-compose-outline nickIcon"></view>
+                </view>
+            </view>
+        </view>
+        <view class="loading" hidden="{{!searchLoading}}">正在载入更多...</view>
+        <view class="loading complete" hidden="{{!searchLoadingComplete}}">已加载全部</view>
+    </view>
+</scroll-view>

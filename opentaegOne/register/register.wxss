@@ -1,0 +1,112 @@
+
+page{
+
+  height: 600px;
+}
+
+
+
+.footer{
+  margin-top: 8px;
+  padding-bottom: 1px;
+}
+.footer-btn{
+  justify-content: space-around;
+}
+.footer-btn1{
+  font-size: 30rpx;
+  border-radius: 1rpx;
+  margin-top: 8px;
+  padding:0px 0px;
+}
+
+
+.footer1{
+  padding-bottom:1px;
+}
+.footer-btn1{
+  justify-content: space-around;
+}
+.footer-btn11{
+  font-size: 22rpx;
+  color: #666666;
+  border-radius: 1rpx;
+  margin-top: 0px;
+  padding:0px 0px;
+}
+
+
+.footer2{
+  padding-bottom:1px;
+  margin-top: 14px;
+}
+
+.footer-btn12{
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 22rpx;
+  color: #666666;
+  border-radius: 1rpx;
+  margin-top: 1px;
+  padding:0px 0px;
+}
+.manxs{
+  border-radius: 1rpx;
+  background-color:aqua;
+}
+.tioe{
+
+	background-color: seagreen;
+}
+/*测试*/
+
+.kyt-container {
+	margin: 0 auto;
+	max-width: 700px;
+	overflow: hidden
+}
+
+.kyt-divider {
+	background: #fff;
+	height: 1px
+}
+
+.kyt-loading {
+	background: #fff;
+	height: 100%;
+	opacity: 1;
+	position: fixed;
+	-webkit-transition: opacity .3s;
+	transition: opacity .3s;
+	width: 100%;
+	z-index: 10000
+}
+
+.kyt-loading-leave {
+	opacity: 0;
+	display: none
+}
+
+.kyt-loading div {
+	background-size: cover;
+	height: 48px;
+	left: 50%;
+	margin: -24px 0 0 -35px;
+	position: absolute;
+	top: 50%;
+	width: 70px
+}
+
+
+
+
+.kyt-player {
+	background: #000;
+	height: 258px;
+	overflow: hidden;
+	position: relative;
+	width: 100%
+}
+
+
+

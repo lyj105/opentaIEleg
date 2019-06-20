@@ -1,0 +1,181 @@
+@import 'wa-ui.wxss';
+.bigImg{
+    width: 100%;
+    height: 40%;
+    background: url("../../../image/moments_bg.jpg");
+    background-size: cover;
+    position:relative;
+}
+.userAva{
+    position: absolute;
+    right:50rpx;
+    bottom:0;
+}
+.userAva image{
+    position:relative;
+    width: 140rpx;
+    height: 140rpx;
+    right:0;
+    bottom:-50rpx;
+}
+.userAva text{
+    color: white;
+}
+.moments_content{
+    margin-top: 90rpx;
+    font-size: 30rpx;
+}
+.otherAva{
+    width: 90rpx;
+    height: 90rpx;
+}
+.otherName{
+    color:darkmagenta
+}
+.borderBot{
+    border-bottom: 1px solid #ccc
+}
+.nickTime{
+    margin: 20rpx 0;
+    position:relative;
+}
+.nickIcon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 18px;
+}
+.marginBot{
+    margin-bottom: 40rpx;
+}
+
+/** 修改默认的navigator点击态 **/
+.navigator-hover {
+    color:blue;
+}
+/** 自定义其他点击态样式类 **/
+.other-navigator-hover {
+    color:red;
+}
+
+/**app.wxss**/
+
+page{
+  height: 100%
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.padding{
+  padding:20rpx;
+}
+.padding_half{
+  padding: 10rpx;
+}
+.graySpace{
+  padding-left: 40rpx;
+  background: #eee;
+  font-size: 12px;
+  min-height: 30rpx;
+}
+.item-avatar .text_box,.item-avatar-lg .text_box{
+  display: flex;
+  flex-direction: column
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+}
+.flex{
+  display: flex;
+}
+.title{
+  font-family: "微软雅黑";
+  font-size: 32rpx;
+}
+.message{
+  font-size: 30rpx;
+}
+
+.item-avatar-lg,.item-avatar-md,.item-avatar-sm,.item-avatar-xs{
+  display: flex;
+  padding: 20rpx 30rpx;
+  border-bottom: 1rpx solid #eee;
+  cursor: pointer;
+  position:relative;
+}
+.item-avatar-lg image{
+  float: left;
+  width: 125rpx;
+  height: 125rpx;
+  box-sizing: border-box
+}
+.item-avatar-md image{
+  float: left;
+  width: 85rpx;
+  height: 85rpx;
+  box-sizing: border-box
+}
+.item-avatar-sm image{
+  float: left;
+  width: 65rpx;
+  height: 65rpx;
+  box-sizing: border-box
+}
+.item-avatar-xs image{
+  float: left;
+  width: 45rpx;
+  height: 45rpx;
+  box-sizing: border-box
+}
+
+.item-avatar-md .marks{
+  position: absolute;
+  top: 0px;
+  left: 90rpx;
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  background: red;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-size: 28rpx;
+}
+.item-avatar-lg .item-text,.item-avatar-md .item-text,.item-avatar-sm .item-text,.item-avatar-xs .item-text{
+  padding-left: 10px;
+}
+.item-avatar-md .item-time{
+  position: absolute;
+  right: 20rpx;
+}
+.clearfix{
+  overflow: hidden;
+}
+.icon::before{
+  font-size: 70rpx
+}
+.floatR{
+  float: right;
+}
+
+/*图片信息*/
+
+.weui-grid{
+  margin:2px; 
+
+}

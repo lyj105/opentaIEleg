@@ -1,0 +1,7 @@
+{
+   "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#333238",
+    "navigationBarTitleText": "经典笑话",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+}

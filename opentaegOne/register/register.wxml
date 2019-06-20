@@ -1,0 +1,37 @@
+
+
+<view class="section " >
+  <video id="myVideo" data-row-id="{{rowId}}" poster="{{poster}}" 
+   src="{{src}}" style="height:250px; width: {{  systemInfo.windowWidth }}px;"  objectFit="cover" controls="{{contols}}" autoplay="{{autoplay}}" bindtap="audioyPlay" ></video>
+
+   <view class="footer">
+            <view class="footer-btn" style="display:flex;flex-direction: row;">
+                <view class="footer-btn1">石头姐和小蜘蛛的艰难一吻</view>
+                
+          </view>
+    </view>
+
+    <view class="footer1">
+            <view class="footer-btn1" style="display:flex;flex-direction: row;">
+                <view class="footer-btn11">搞笑/5'51"</view>
+          </view>
+    </view>
+
+    <view class="footer2">
+            <view class="footer-btn2" style="display:flex;flex-direction: row;">
+                <view class="footer-btn12">蜘蛛侠系列中，被粉丝们津津乐道的就是小蜘蛛和女票的花式接吻。在 2014 年的 SNL 这超经典的一集里，这对前男女朋友虽然确实依旧花样百出，但总觉得不是哪儿不太对劲……From Saturday Night Live            
+                </view>
+          </view>
+    </view>
+
+</view>
+
+ <view style="height:10px;" calss="manxs">
+ 
+ </view>
+
+
+
+
+
+
